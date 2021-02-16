@@ -1,0 +1,319 @@
+@import '../fonts/style.css'
+*{
+    margin:0;
+    padding: 0;
+}
+body{
+    background-image: linear-gradient(#dcd9d5,#dad8d3);
+}
+.container{
+    width: 960px;
+    margin:0 auto;
+    border: 1px solid #d4d1cc;
+    background-color: #fff;
+}
+.vtop{
+    background-color: inherit;
+    width: 960px;
+    margin:0 auto;
+    padding: 40px 0;
+    position: relative;
+
+}
+.vtop p{
+    font-size: 14pt;
+    color: #939393;
+    display: inline;
+    margin:0 auto;
+    position: absolute;
+    left:21%;
+    top:40%;
+}
+.logo{
+    display: inline;
+}
+.logos{
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.logos i{
+    opacity: 0.5;
+}
+.logos i:hover{
+    opacity: 1;
+}
+header{
+    background-image: linear-gradient(#e8e6e2,#ebe9e5);
+
+}
+.flexnav{
+    display: flex;
+    justify-content: flex-start;
+    padding: 30px;
+
+}
+.flexnav div{
+    padding: 15px 25px;
+    margin: 3px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+.flexnav .active{
+    background-color: #f45300;
+    border-radius: 8px;
+
+}
+.flexnav div:hover{
+    background-color: #f45300;
+    border-radius: 8px;
+}
+.section1{
+    margin: 30px;
+}
+.tops_flex{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.box1{
+    width: 32%;
+    overflow: hidden;
+}
+.divk{
+    display:flex;
+    width: 280px;
+}
+.divk img{
+    height: 40px;
+}
+.divk p{
+    margin-left: 30px;
+}
+.bold{
+    font-size: 13px;
+    color: #2e2c2d;
+    width: 210px;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.hira{
+    color: #9e9e9e;
+}
+.flex_4{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: no-wrap;
+
+}
+.box_p25{
+    width: 24%;
+}
+.btn{
+    width: 60%;
+    margin: 0 10%;
+    padding: 10px 5px;
+    border-radius: 20px;
+    color: #fff;
+    text-align: center;
+    font-size: 15pt;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.btn:hover{
+    background-image: linear-gradient(rgb(145, 235, 241),#98e7a8);
+    color: black;
+}
+.s{
+    background-image: linear-gradient(#f4915d,#df4f05);
+}
+.q{
+    background-image: linear-gradient(#828081,#443f43);
+}
+.orta_con{
+    background-image: url(../mgs/pattern2.jpg);
+    display: flex;
+    padding-bottom: 25px;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+.orta_con p{
+    margin-left:25px;
+    margin-top:40px;
+    width:510px;
+    color: #706d6a;
+    font-size: 18px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.big_btn{
+    width: 258px;
+    height: 55px;
+    margin-top: 40px;
+    margin-right: 20px;
+    border-radius: 25px;
+    border: 1px solid #df733b;
+    box-shadow: 0px 0px 0px 6px #f2ebdf;    
+}
+.big_btn a{
+    padding: 16px 30px;
+    display: inline-block;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    background: linear-gradient(#f98d55, #de5c19);
+    border-radius: 25px;
+    color: #fff;
+    text-decoration: none;
+}
+.big_btn a:hover{
+    background-image: linear-gradient(rgb(145, 235, 241),#98e7a8);
+    color: black;
+}
+.section2{
+    margin: 30px 20px;
+}
+.cus_blog{
+    margin-right: 5px;
+    
+}
+.boxes{
+    display: flex;
+    justify-content: space-between;
+}
+.custop{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 25px;
+}
+.custop p{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 14pt;
+    font-weight: bold;
+}
+.cusbox{
+    width: 30%;
+}
+.cusbox:last-child{
+    width: 32%;
+}
+.incus{
+    display: flex;
+    justify-content: space-between;
+}
+.name{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 13pt;
+    margin: 10px;
+    color: rgb(36, 34, 34)
+}
+.prof{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 10pt;
+    color: #f55909;
+    margin-left: 10px;
+}
+.cusbox .claimer{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 14pt;
+    color: #adadad;
+}
+.flexfather{
+   display: flex;
+   justify-content: space-between;
+   margin-top: 20px;
+}
+.redbox{
+    width: 54px;
+    height: 54px;
+    background-color:#ff0000;
+    border-radius: 6px;
+    box-shadow: 0px 0px 0px 5px #f2ebdf;
+}
+.flexfather p{
+    line-height: 7px;
+}
+.bld{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    font-size:15px ;
+    margin: 0px;
+}
+.sana{
+    color: #adadad;
+    font-size: 13px;
+    font-weight: bold;
+}
+.credits{
+    color: #f55909;
+    font-size: 13px;
+    font-weight: bold;
+}
+footer{
+    margin: 0px;
+    border-top: 20px solid #615f5d;
+}
+.fcon{
+    background-color: #4a4744;
+    border-top: 1px solid #575451;
+}
+.fhead{
+    display: flex;
+    justify-content: space-between;
+
+}
+.fhead {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    font-size: 13pt;
+    padding: 25px 20px;
+    color: #fff;
+    padding-bottom: 0px;
+}
+.fmcon{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    padding-top: 0px;
+}
+.pc{
+    font-size: 12pt;
+    font-family: Arial;
+    color:#848484;
+    font-weight: normal;
+}
+.w60{
+    width: 60%;
+    padding-right: 30px;
+
+}
+.w30{
+    width: 34%;
+    padding-left: 0px;
+}
+.wht{
+    font-weight: 100;
+    font-size: 12pt;
+    color: #f7f5ee;
+}
+.pref{
+    background-image: url(../mgs/patternb.jpg);
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+}
+.pref img{
+    height:20pt;
+    margin: 0 50px;
+    padding-top: 17px;
+}
+.pref p{
+    color: #848484;
+    font-size: 12pt;
+    font-family: arial;
+}
+.endgame{
+    font-weight: bold;
+    color: #cfcdc7;
+    padding-right: 50px;
+
+}
